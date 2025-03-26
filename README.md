@@ -1,22 +1,24 @@
 SafeNet
 
-SafeNet is a cybersecurity application designed to enhance digital security through secure communication channels and real-time threat detection. Built using TypeScript and Node.js, it ensures data protection and mitigates cyber threats.
+SafeNet is a cybersecurity application designed to provide secure communication and real-time threat detection. Developed using TypeScript and Node.js, it ensures robust protection against cyber threats.
 
 🚀 Features
 
-Secure communication
+Secure communication channels
 
 Real-time fraud detection
 
-Multi-factor authentication
+Multi-factor authentication using SMS/Voice APIs
 
-Data breach notifications
+Data breach detection and notifications
+
+Scalable and customizable for businesses
 
 🛠 Tech Stack
 
 Backend: Node.js, TypeScript
 
-APIs: Africa's Talking APIs
+APIs: Africa's Talking APIs (SMS, USSD, Voice)
 
 Database: MongoDB
 
@@ -24,7 +26,7 @@ Version Control: Git & GitHub
 
 🧑‍💻 Getting Started
 
-Clone the repo:
+Clone the repository:
 
 git clone https://github.com/samsonmobisa/SafeNet.git
 cd SafeNet
@@ -33,15 +35,19 @@ Install dependencies:
 
 npm install
 
-Create a .env file:
+Create a .env file for environment variables:
 
 PORT=3000
 API_KEY=your_api_key
 
-Start the server:
+Start the development server:
 
 npm run dev
 
-🤝 Contribution
+🧪 Scripts
 
-Contributions are welcome! Fork the repo, create a branch, and submit a pull request.
+npm run dev - Start the app in development mode using Nodemon.
+
+npm run build - Build the app using TypeScript.
+
+npm start - Run the built app.
